@@ -3,6 +3,7 @@ import './App.css';
 
 import { ReactForm } from './components/ReactForm';
 import { UseRefForm } from './components/UseRefForm';
+import { RefForm } from './components/RefForm';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <ReactForm/>
       <UseRefForm/>
+      <RefForm/>
     </>
   )
 }
